@@ -2,49 +2,73 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>Thaddeus Gray</title>
+  <!--Add bootstrap and stylesheet-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="style.css">
 </head>
 
+<!--Navbar adjustments-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+    <div class="container">
+    <div><a class="navbar-brand text-white" href="index.html">Thaddeus Gray</a></div>
+    <div><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav mr-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/thaddeusg2173/">LinkedIn</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/dunkin-gray">Github</a>
+          </li>
+        
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://dunkin-gray.github.io/Javascript-Challenge/">UFO Sightings</a>
+            </div>
+          </li>
+        </ul></div>
+
+      </div>
+    </nav>
+    <br>
+
 <body>
+    <!--Create container, add rows and columns, and pull images from assets folder.-->
+    <div class="container content">    
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-md-12">
+                  <br>
+                    <div class="thumbnail float-left" style="max-width: 45%; margin-right:50px;">
+                      <img class="img-thumbnail float-left" src="Images/ID Pic.jpeg"> 
+                    </div>
+                    <br>
+                    <h2 style="color: rgb(0, 100, 84);">Data analyst/Business Analyst fueled by storytelling.</h2><br>
+                    
 
-  <h1>Thaddeus Gray</h1>
-
-  <img src="https://placehold.it/200x200" alt="Your Name">
-
-  <p>As an avid learner and to what I consider myself is a Jack of all trades in the working world much like on the basketball court I like to have multiple facets to me that allow for me to be useful in many ways</p>
-  <p>A couple things about me, I love video games, I just had a baby with my wife of 3 years now, love to exercise, and I enjoy people watching.</p>
-
-  <ul>
-    <li><strong>Email:</strong> <a href="#">thaddeusgray23@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">dunkin-gray</a></li>
-    <li><strong>Twitter:</strong> <a href="#">coming soon</a></li>
-  </ul>
-
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>Subtle Art of Not Giving a F&*k</td>
-      <td>Avengers Endgame</td>
-      <td>Grand Theft Auto</td>
-    </tr>
-    <tr>
-      <td>The 10x Rule</td>
-      <td>Creed</td>
-      <td>Call Of Duty</td>
-    </tr>
-    <tr>
-      <td>Adventures of Huckleberry Finn</td>
-      <td>Coach Carter</td>
-      <td>NBA 2k or Madden</td>
-    </tr>
-  </table>
-
-  <!-- Bonus link to last class page -->
-  <a href="../../../../1/Activities/04-Stu_MyFirst_HTML/Solved/my-first-bonus.html">My First HTML Bonus</a>
+            
+                      
+                    
+                    
+          </div>
+        </div>
 
 </body>
 
