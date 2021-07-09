@@ -2,7 +2,7 @@
 a.navbar-brand{
     margin-left:10px;
     padding:10px;
-    background-color:rgb(0, 100, 84);
+    background-color:rgb(25, 34, 89);
     font-family:new century schoolbook;
     font-weight: 500;
     font-size: 22px;
@@ -10,7 +10,7 @@ a.navbar-brand{
 
 /* navbar styling*/
 .navbar{
-    background-color:rgb(0, 100, 84) !important;
+    background-color:rgb(25, 34, 89) !important;
     padding-top:0px;
     padding-bottom: 0px;
     padding-right:40px;
@@ -24,7 +24,7 @@ a.navbar-brand{
 
 /*header styling*/
 h3{
-    color:rgb(0, 100, 84);
+    color:rgb(25, 34, 89);
     font-family: new century schoolbook;
     font-weight: bold;
     padding-top: 10px;
@@ -55,11 +55,11 @@ p{
 /* small screen adjustments*/
 @media(max-width:991px){
     .navbar.bg-light{
-        background-color: rgb(0, 100, 84)!important;    
+        background-color: rgb(25, 34, 89)!important;    
     }
 
     .navbar-collapse{
-        background-color: rgb(0, 100, 84)!important;
+        background-color: rgb(25, 34, 89)!important;
     }
     .navbar{
         padding:inherit;
